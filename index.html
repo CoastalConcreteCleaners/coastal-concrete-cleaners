@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coastal Concrete Cleaners</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.8em;
+      font-weight: bold;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    .button {
+      display: inline-block;
+      background: #000;
+      color: #fff;
+      padding: 12px 24px;
+      text-decoration: none;
+      margin-top: 10px;
+      transition: all 0.3s ease;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+    }
+    .button:hover {
+      background: #444;
+      transform: scale(1.03);
+    }
+    .fade-in {
+      animation: fadeIn 1s ease forwards;
+      opacity: 0;
+    }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+    }
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+    @media (max-width: 600px) {
+      header, .section, footer {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Coastal Concrete Cleaners
+  </header>
+
+  <section class="section fade-in">
+    <h2>Professional Concrete Pressure Washing</h2>
+    <p>Driveways, sidewalks, patios, steps, and more — professionally cleaned for homes, rentals, and small storefronts.</p>
+    <a class="button" href="#estimate">Get a Free Estimate</a>
+  </section>
+
+  <section class="section fade-in">
+    <h2>Pricing</h2>
+    <ul>
+      <li>Driveways: $200 (add $40 for heavy stains)</li>
+      <li>Sidewalks: $100</li>
+      <li>Steps: $5 each ($10 for mold/algae)</li>
+      <li>Patios: $80–$100</li>
+      <li>Travel Fee: $25 for locations 30+ minutes away</li>
+    </ul>
+  </section>
+
+  <section class="section fade-in">
+    <h2>Payment & Contract</h2>
+    <p>We accept PayPal, Venmo, and cash. After deposit, your Service Agreement is automatically emailed for signature.</p>
+    <a class="button" href="#contact">Confirm Payment</a>
+  </section>
+
+  <section class="section fade-in" id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:CoastalConcreteCleaners1@gmail.com">CoastalConcreteCleaners1@gmail.com</a><br>
+    Phone: <a href="tel:6784716709">678-471-6709</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Coastal Concrete Cleaners. All rights reserved.
+  </footer>
+</body>
+</html>
